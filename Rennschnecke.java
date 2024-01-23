@@ -4,5 +4,13 @@ class Rennschnecke{
     int vMax;
     double strecke;
 
-    
+    void kriechen()
+    {
+
+    }
+
+    void rennen()
+    {
+
+    }
 }
