@@ -6,7 +6,7 @@ class Rennschnecke{
 
     void kriechen()
     {
-
+        
     }
 
     void rennen()
