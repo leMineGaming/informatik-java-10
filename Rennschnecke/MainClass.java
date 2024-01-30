@@ -6,5 +6,7 @@ public class MainClass {
         System.out.println("Rasse = " + schnecke.rasse);
         System.out.println("vMax = " + schnecke.vMax);
         schnecke.kriechen();
+        schnecke.kriechen();
+        schnecke.kriechen();
     }
 }
