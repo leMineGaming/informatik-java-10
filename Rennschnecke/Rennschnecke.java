@@ -1,4 +1,5 @@
 package Rennschnecke;
+
 class Rennschnecke{
     String name;
     String rasse;
@@ -17,6 +18,9 @@ class Rennschnecke{
     void kriechen()
     {
         
+        double zeit = Math.random();
+        strecke = strecke + zeit * vMax;
+        System.out.println(name + " ist " + Math.round(strecke) + " cm gekrochen.");
     }
 
     void rennen()
