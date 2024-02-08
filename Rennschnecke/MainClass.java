@@ -1,15 +1,16 @@
 package Rennschnecke;
 public class MainClass {
     public static void main(String[] args){
-        Rennschnecke schnecke = new Rennschnecke("Bert", "Nacktschnecke", 10);
+        Schneckenhaus schnecke = new Schneckenhaus("Bert", "Nacktschnecke", 10);
         System.out.println("Name = " + schnecke.name);
         System.out.println("Rasse = " + schnecke.rasse);
         System.out.println("vMax = " + schnecke.vMax);
-        String input = System.console().readLine().toString();
-
-        
-        schnecke.kriechen();
-        
-        System.out.println(input.toLowerCase());
+        for(int x = 1; x < 20; x += 1)
+        {
+            schnecke.kriechen();
+            schnecke.PflanzenEssen();
+            schnecke.kriechen();
+        }
+        schnecke.rennen();
     }
 }

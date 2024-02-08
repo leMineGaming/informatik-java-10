@@ -16,12 +16,18 @@ class Rennschnecke{
     void kriechen()
     {
         double zeit = Math.random();
+        double printstrecke = zeit * vMax;
         strecke += zeit * vMax;
-        System.out.println(name + " ist " + Math.round(strecke) + " cm gekrochen.");
+        System.out.println(name + " ist " + Math.round(printstrecke) + " cm gekrochen.");
+        System.out.println("Insgesamt zurückgelegte Strecke: " + Math.round(strecke)+ "cm") ;
     }
 
     void rennen()
     {
-
+        double zeit = Math.random() * 4;
+        double printstrecke = zeit * vMax;
+        strecke += zeit * vMax;
+        System.out.println(name + " ist " + Math.round(printstrecke) + " cm gerannt. Was für eine Ausdauer!");
+        System.out.println("Insgesamt zurückgelegte Strecke: " + Math.round(strecke) + "cm");
     }
 }
