@@ -4,4 +4,5 @@
 ### Schaltjahre
 ## Abgeschlossene Projekte:
 ### Zahlaufgabe
+### Syracuse (Hausaufgabe)
 Ablauf des Informatikunterrichts
