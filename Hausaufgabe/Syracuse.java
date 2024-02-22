@@ -6,7 +6,7 @@ public class Syracuse {
         String eingegebenezahl = System.console().readLine();
         int Number = Integer.parseInt(eingegebenezahl);
         System.out.println("Gewählt: " + Number);
-        while (Number > 1){
+        while (Number != 1){
             if(Number % 2 == 0){
                 Number = Number /2;
                 System.out.println("Gerade: " + Number);
