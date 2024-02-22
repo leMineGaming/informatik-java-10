@@ -6,6 +6,10 @@ public class Syracuse {
         String eingegebenezahl = System.console().readLine();
         int Number = Integer.parseInt(eingegebenezahl);
         System.out.println("Gewählt: " + Number);
+        if(Number < 1){
+            System.out.println("Du hast keine natürliche Zahl eingegeben!");
+            Number = 1;
+        }
         while (Number != 1){
             if(Number % 2 == 0){
                 Number = Number /2;
